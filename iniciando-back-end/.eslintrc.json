@@ -19,7 +19,6 @@
         "prettier"
     ],
     "rules": {
-      "prettier/prettier": "error",
       "class-methods-use-this": "off",
       "camelcase": "off",
       "@typescript-eslint/camelcase": "off",
@@ -32,7 +31,8 @@
         {
           "ts": "never"
         }
-      ]
+      ],
+      "prettier/prettier": "error"
     },
     "settings": {
       "import/resolver": {
